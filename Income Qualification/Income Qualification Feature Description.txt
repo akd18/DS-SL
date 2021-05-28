@@ -1,4 +1,4 @@
-﻿1.  ID = Unique  ID  
+﻿1.  Id = Unique  ID  
 2.  v2a1, Monthly rent payment  
 3.  hacdor, =1 Overcrowding by bedrooms  
 4.  rooms,  number of all rooms in the house  
@@ -22,29 +22,28 @@
 22. rez_esc, Years behind in school  
 23. hhsize, household size  
 24. paredblolad, =1 if predominant material on the outside wall is block or brick  
-25. paredzocalo, "=1 if predominant material on the outside wall is socket (wood,  zinc or  
-    absbesto"  
+25. paredzocalo, =1 if predominant material on the outside wall is socket (wood,  zinc or absbesto)
 26. paredpreb, =1 if predominant material on the outside wall is prefabricated or cement  
 27. pareddes, =1 if predominant material on the outside wall is waste material  
 28. paredmad, =1 if predominant material on the outside wall is wood  
 29. paredzinc, =1 if predominant material on the outside wall is zink  
 30. paredfibras, =1 if predominant material on the outside wall is natural fibers  
 31. paredother, =1 if predominant material on the outside wall is other  
-32. pisomoscer, "=1 if predominant material on the floor is mosaic,  ceramic,  terrazo"  
+32. pisomoscer, =1 if predominant material on the floor is mosaic,  ceramic,  terrazo 
 33. pisocemento, =1 if predominant material on the floor is cement  
 34. pisoother, =1 if predominant material on the floor is other  
 35. pisonatur, =1 if predominant material on the floor is  natural material  
 36. pisonotiene, =1 if no floor at the household  
 37. pisomadera, =1 if predominant material on the floor is wood  
 38. techozinc, =1 if predominant material on the roof is metal foil or zink  
-39. techoentrepiso, "=1 if predominant material on the roof is fiber cement,  mezzanine "  
+39. techoentrepiso, =1 if predominant material on the roof is fiber cement,  mezzanine
 40. techocane, =1 if predominant material on the roof is natural fibers  
 4 1. techootro, =1 if predominant material on the roof is other  
 42. cielorazo, =1 if the house has ceiling  
 43. abastaguadentro, =1 if water provision inside the dwelling  
 44. abastaguafuera, =1 if water provision outside the dwelling  
 45. abastaguano, =1 if no water provision  
-46. public, "=1 electricity from CNFL,   ICE,  ESPH/JASEC"  
+46. public, =1 electricity from CNFL,   ICE,  ESPH/JASEC
 47. planpri, =1 electricity from private plant  
 48. noelec, =1 no electricity in the dwelling  
 49. coopele, =1 electricity from cooperative  
@@ -61,7 +60,7 @@
 60. elimbasu2, =1 if rubbish disposal mainly by botan hollow or buried  
 61. elimbasu3, =1 if rubbish disposal mainly by burning  
 62. elimbasu4, =1 if rubbish disposal mainly by throwing in an unoccupied space  
-63. elimbasu5, "=1 if rubbish disposal mainly by throwing in river,  creek or sea"  
+63. elimbasu5, =1 if rubbish disposal mainly by throwing in river,  creek or sea
 64. elimbasu6, =1 if rubbish disposal mainly other  
 65. epared1, =1 if walls are bad  
 66. epared2, =1 if walls are regular  
@@ -99,12 +98,9 @@
 98. hogar_adul, Number of adults in household  
 99. hogar_mayor, # of individuals 65+ in the household  
 100.    hogar_total, # of total individuals in the household  
-101.    dependency, Dependency rate, calculated = (number of members of the household  
-    younger than  19 or older than 64)/(number of member of household between  19 and 64)  
-102.    edjefe, years of education of male head of household, based on the interaction of  
-    escolari (years of education), head of household and gender, yes=1 and no=0  
-103.    edjefa, years of education of female head of household, based on the interaction of  
-    escolari (years of education), head of household and gender, yes=1 and no=0  
+101.    dependency, Dependency rate, calculated = (number of members of the household younger than  19 or older than 64)/(number of member of household between  19 and 64)  
+102.    edjefe, years of education of male head of household, based on the interaction of escolari (years of education), head of household and gender, yes=1 and no=0  
+103.    edjefa, years of education of female head of household, based on the interaction of escolari (years of education), head of household and gender, yes=1 and no=0  
 104.    meaneduc,average years of education for adults (18+)  
 105.    instlevel1, =1 no level of education  
 106.    instlevel2, =1 incomplete primary  
@@ -121,7 +117,7 @@
 117.    tipovivi2, "=1 own,  paying in installments"  
 118.    tipovivi3, =1 rented  
 119.    tipovivi4, =1 precarious  
-120.    tipovivi5, "=1 other(assigned,  borrowed)"  
+120.    tipovivi5, =1 other(assigned,  borrowed)
 121.    computer, =1 if the household has notebook or desktop computer  
 122.    television, =1 if the household has TV  
 123.    mobilephone, =1 if mobile phone  
@@ -142,6 +138,5 @@
 138.   SQBhogar_nin, hogar_nin squared  
 139.   SQBovercrowding, overcrowding squared  
 140.   SQBdependency, dependency squared  
-14 1.  SQBmeaned, square of the mean years of education of adults (>=18) in the  
-    household  
+141.  SQBmeaned, square of the mean years of education of adults (>=18) in the household  
 142.   agesq= Age squared  
